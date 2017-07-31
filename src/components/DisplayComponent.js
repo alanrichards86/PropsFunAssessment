@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/displayComponent.css';
 
 export default class DisplayComponent extends Component {
   constructor(props){
@@ -9,7 +10,7 @@ export default class DisplayComponent extends Component {
       <div>
 
         <h2>This is what I say</h2>
-        {this.props.sayWhat}
+        <p>{this.props.sayWhat}</p>
 
 
 
